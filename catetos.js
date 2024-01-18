@@ -9,4 +9,4 @@ var hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
 
 // Mostrar el resultado al usuario
 alert("La hipotenusa es: " + hipotenusa);
-console.log(La hipotenusa es: ${hipotenusa})
+console.log(`La hipotenusa es: ${hipotenusa}`)
