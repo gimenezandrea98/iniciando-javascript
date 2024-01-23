@@ -15,12 +15,20 @@ console.log(arrDefiguras);
 // "circulo", "triangulo" y "cuadrado"
 
 //debugger;
-//const cortadito_1 = arrDefiguras.splice(0,2);
-//const cortadito_2 = arrDefiguras[0];
-//const mezclar = cortadito_1.concat(cortadito_2);
+const cortadito_1 = arrDefiguras.splice(0,2);
+const cortadito_2 = arrDefiguras[0];
+const mezclar = cortadito_1.concat(cortadito_2);
+console.log(mezclar);
 //debugger;
 
 
 //borrar elementos
 arrDefiguras.splice(2,3,"rombo")
+console.log(arrDefiguras);
+
+//borrar el ultimo
+arrDefiguras.pop();
+console.log(arrDefiguras);
+//borrar el primero
+arrDefiguras.shift();
 console.log(arrDefiguras);
