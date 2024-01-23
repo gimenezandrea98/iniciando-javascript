@@ -1,4 +1,4 @@
-let razadeperros = ['pitbull','pastor aleman','perrote',1200,false,null];
+let razadeperros = ['pitbull','pastor aleman','perrote', 1500, 1200,false,null];
 console.log({razadeperros});
 
 //const ultimoElemento = razadeperros
