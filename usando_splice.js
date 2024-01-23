@@ -12,5 +12,5 @@ arrDefiguras.splice(2, 0, "cuadrado", "trapezoide");
 console.log(arrDefiguras);
 
 //borrar elementos
-arrDefiguras.splice(2,4,"rombo")
+arrDefiguras.splice(2,3,"rombo")
 console.log(arrDefiguras);
